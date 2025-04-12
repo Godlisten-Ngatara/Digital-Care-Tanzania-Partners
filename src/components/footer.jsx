@@ -34,19 +34,19 @@ function Footer() {
                 type="logo"
                 name="instagram"
                 size="lg"
-                style={{ fill: "gray", opacity: "0.6" }}
+                style={{ fill: "gray", opacity: "0.6", cursor: "pointer" }}
               ></box-icon>
               <box-icon
                 type="logo"
                 name="twitter"
                 size="lg"
-                style={{ fill: "gray", opacity: "0.6" }}
+                style={{ fill: "gray", opacity: "0.6", cursor: "pointer" }}
               ></box-icon>
               <box-icon
                 type="logo"
                 name="linkedin"
                 size="lg"
-                style={{ fill: "gray", opacity: "0.6" }}
+                style={{ fill: "gray", opacity: "0.6", cursor: "pointer",}}
               ></box-icon>
             </div>
           </div>

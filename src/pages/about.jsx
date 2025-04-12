@@ -17,11 +17,13 @@ import Hero from "../components/hero";
 import Footer from "../components/footer";
 import Donation from "../components/donation";
 function About() {
+  const heroTitle = "Empowering Tanzania Through Digital Innovation"
+  const heroDesc = "Building a sustainable digital future by connecting communities,fostering innovation, and creating opportunities for all Tanzanians."
   return (
     <div className="min-h-screen bg-gray-50">
       <Header></Header>
       {/* Hero Section */}
-      <Hero></Hero>
+      <Hero title={heroTitle} desc={heroDesc}></Hero>
 
       {/* Introduction Section */}
       <div className="container py-16  min-w-screen">
